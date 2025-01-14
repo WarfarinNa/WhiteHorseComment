@@ -137,7 +137,6 @@ public class VoucherOrderServiceImpl extends ServiceImpl<VoucherOrderMapper, Vou
         proxy = (IVoucherOrderService) AopContext.currentProxy();
         //3=4.返回订单id
         return Result.ok(orderId);
-
     }
 
 /*    @Override
